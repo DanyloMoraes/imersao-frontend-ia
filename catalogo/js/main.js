@@ -21,4 +21,19 @@ document.addEventListener('DOMContentLoaded', () => {
             container.appendChild(carousel);
         });
     }
+
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!hamburger.contains(event.target) && !navLinks.contains(event.target)) {
+                navLinks.classList.remove('open');
+            }
+        });
+    }
 });
