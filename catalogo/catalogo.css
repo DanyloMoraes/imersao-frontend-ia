@@ -154,7 +154,7 @@ a:hover {
 
 .movie-row {
     display: flex;
-    gap: 8px;
+    gap: 2em;
     /* Small gap between movie cards */
     overflow-x: visible;
     /* Let the expanded cards paint outside this box vertically */
