@@ -4,6 +4,8 @@
 
 Durante as aulas, mergulhamos na prática para construir um projeto real. O resultado foi uma interface inspirada na **Netflix**, desenvolvida em apenas 20 minutos com o auxílio de ferramentas de Inteligência Artificial.
 
+[:rocket: Confira o resultado final](https://danylomoraes.github.io/imersao-frontend-ia/)
+
 ### Destaques da imersão:
 
 - Preparamos o ambiente de desenvolvimento utilizando a extensão **Live Server** no **Visual Studio Code**.
@@ -21,7 +23,6 @@ Durante as aulas, mergulhamos na prática para construir um projeto real. O resu
 - Criamos variáveis de **CSS** para padronizar as cores do projeto.
 - Implementamos o modo claro e o modo escuro (**light**/**dark** mode).
 
+## Interface do Projeto Finalizado
 
-## Screenshot final do projeto
-
-![Netflix screenshot](./assets/netflix-screenshot.jpeg)
+![Página inicial do projeto estilo Netflix com fundo escuro e cards de filmes](./assets/netflix-screenshot.jpeg)
